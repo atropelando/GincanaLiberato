@@ -267,12 +267,157 @@ GAMBÁ! GAMBÁ! GAMBÁ!`
     },
     data: [
       {
-        title: "Placeholder",
+        title: "Gloriosa",
         lyrics: 
-`Hoje
-eu acordei
-me sentindo
-um chuchu`
+`Somos da gloriosa MÁFIA DA GRAXA
+A que segue a MECA sem pedir nada
+A que mesmo perdendo segue cantando
+Pois apesar de tudo segue te AMANDO
+Somos GRAXEIROS!`
+      },
+      {
+        title: "Meca Minha Vida",
+        lyrics: 
+`MECA, tu é minha vida!
+Da Liberato é sempre a mais querida
+Eu sou GRAXEIRO de coração
+Dessa gincana tu serás CAMPEÃO ...
+Não me importa o que digam
+Só me importa onde vais
+Eu te sigo a toda parte....
+Cada vez te quero mais`
+      },
+      {
+        title: "Hino 2008",
+        lyrics: 
+`MÁFIA DA GRAXA eu vim te ver!
+Por isso temos que vencer!
+MECA tu é minha vida, minha paixão!
+Um sentimento sem explicação!
+MÁFIA é um sentimento, bate forte aqui no peito!
+MECA tu é a droga do meu coração!
+Se ganhar ou se perder
+Eu não quero nem saber!
+Eu te levo dentro do meu coração!`
+      },
+      {
+        title: "Ganharemos",
+        lyrics: 
+`Ganharemos, Ganharemos!
+Ganharemos outra vez!
+Levaremos o caneco!
+Como o ARRIBAMECA fez!`
+      },
+      {
+        title: "Minha Paixão",
+        lyrics: 
+`Minha Paixão é a MÁFIA DA GRAXA!
+E esse ano eu quero sair campeão!
+Pode cantar junto que não da nada!
+Eu sempre serei GRAXEIRO de coração!
+Que me disse a Marelise!
+Que me disse com fervor!
+A união é que faz a força!
+Tenha juízo por favor!`
+      },
+      {
+        title: "Hino Máfia da Graxa",
+        lyrics: 
+`OoooOh OoooOh
+A MECA é rei!
+Olê, Olê, Olê! Olê, Olê, Olê, Olá!
+MECA!
+Olê, Olê, Olê!
+A cada dia te quero mais!
+Porque ...
+Sou MÁFIA DA GRAXA, um sentimento que não pode acabar!`
+      },
+      {
+        title: "Explode!",
+        lyrics: 
+`Explode coração, na maior Felicidade!
+É a MÁFIA DA GRAXA!
+Contagiando e sacudindo essa cidade!`
+      },
+       {
+        title: "Terror de NH",
+        lyrics: 
+`Mas eu só quero é ser feliz!
+Se eu não levar o caneco isso vai ser por um triz! É
+E poder me orgulhar, de ser MÁFIA DA GRAXA o terror de NH!`
+      },
+      {
+        title: "Meca Terror",
+        lyrics: 
+`Formiga de tamanco não sobe parede não!
+Eu sou MÁFIA DA GRAXA e não poupo disposição!
+Minha cor é o LARANJA e eu sou mais um GRAXEIRO!
+Se chegar lá no almox o VALDIR é meu parceiro!
+ooOO ooOO ooOO ooOO MECA TERROR!
+ooOO ooOO ooOO ooOO MECA TERROR!`
+      },
+      {
+        title: "Esculacha",
+        lyrics: 
+`Aah Esculacha!
+Vem chegando, vem chegando
+BATERA MÁFIA DA GRAXA!`
+      },
+      {
+        title: "Unidos pela Loucura",
+        lyrics: 
+`Vamos MÁFIA eu vim te ver!
+E não importa mais nada!
+GRAXEIROS vamos vencer!
+E levar essa taça!
+Toda a gincana estamos juntos aqui!
+Unidos pela loucura!
+O sentimento que eu tenho por ti
+É uma doença sem cura!`
+      },
+      {
+        title: "A Meca Vai Vencer",
+        lyrics: 
+`Hoje é uma noite especial!
+Você não pode perder!
+A MECA vai vencer!
+A MECA vai vencer!`
+      },
+      {
+        title: "Pense em Mim",
+        lyrics: 
+`Em vez de você ficar pensando nele
+Em vez de você viver chorando por ele
+Pense em mim, chore por mim
+Liga pra mim, não, não liga pra ele
+Pra ele! Não chore por ele!
+
+Se lembre que eu há muito tempo te amo
+Te amo! Te amo!
+Quero fazer você feliz
+Vamos pegar o primeiro avião
+Com destino à felicidade
+A felicidade pra mim é você
+
+Pense em mim, chore por mim
+Liga pra mim, não, não liga pra ele
+Pra ele! Não chore por ele!
+
+Pense em mim, chore por mim
+Liga pra mim, não, não liga pra ele
+Pra ele! Não chore por ele!`
+      },
+      {
+        title: "Desde o Início",
+        lyrics: 
+`Meca é o meu vício,
+E desde o início 
+É dona do meu coração.
+E no fundo, eu sei
+O quanto já ganhei.
+Ao te ver delirei de emoção!
+Desde o início eu estava aqui.
+Desde o início eu lutei por ti.`
       },
     ],
   },
