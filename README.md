@@ -9,4 +9,4 @@ yarn start
 ```
 
 ## Contribuindo
-As músicas se encontram no arquivo [songs.js](data/songs.js). Para adicionar uma música, edite o arquivo e envie uma pull request.
+As músicas se encontram no arquivo [songs.js](data/Songs.js). Para adicionar uma música, edite o arquivo e envie uma pull request.
