@@ -218,6 +218,24 @@ Pra sempre eu soooou
 aTRÔpelaaandooo`
       },
       {
+        title: "Tumbalatum",
+        original: "Tumbalatum (MC Kevinho)",
+        lyrics:
+`Sempre que o taz se solta
+Ele faz todo mundo parar
+Ta sempre querendo a taça
+A gincana vai começar
+
+A aTRÔpelando te mostra
+O jeito certo de jogar
+Quer espaço pra taça no almox
+Se liga na trô que chegou pra ganhar
+
+A bateria faz tumbalatum
+E os trompete faz tumbalata
+A aTRÔpelando faz tumbalatum, balatum, balatum pra estrela chegar`
+      },
+      {
         title: "Inferno Verde voltou",
         video: "https://www.youtube.com/watch?v=qFDutfzIH9c",
         lyrics:
