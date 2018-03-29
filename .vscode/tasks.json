@@ -13,7 +13,7 @@
                 "command": "cd android; if($?) {./gradlew assembleDebug}"
             },
             "osx": {
-                "command": "cd android && ./gradlew assembleDebug"
+                "command": "cd android; and ./gradlew assembleDebug"
             }
         },
         {
@@ -24,7 +24,7 @@
                 "command": "cd android; if($?) {./gradlew assembleRelease}"
             },
             "osx": {
-                "command": "cd android && ./gradlew assembleRelease"
+                "command": "cd android; and ./gradlew assembleRelease"
             }
         },
         {
