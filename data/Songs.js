@@ -372,6 +372,7 @@ Contagiando e sacudindo essa cidade!`
       },
        {
         title: "Terror de NH",
+        original: "Rap da felicidade (Cindinha e Doca)",
         lyrics: 
 `Mas eu só quero é ser feliz!
 Se eu não levar o caneco isso vai ser por um triz! É
@@ -895,6 +896,7 @@ Quando invadirmos essa fundação
       },
       {
         title: "Até a morte",
+        original: "Mulher de Fases (Raimundos)",
         lyrics: 
 `TNT
 A hora é agora
