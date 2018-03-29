@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
     backgroundColor: "rgba(255, 0, 0, 0.75)",
     marginLeft: 40,
     marginRight: 40,
-    marginTop: 20,
+    marginTop: 40,
     marginBottom: 20,
     padding: 10,
   }
