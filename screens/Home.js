@@ -37,6 +37,7 @@ export default class HomeScreen extends React.Component {
     return (
       <View style={styles.container}>
         <SectionList
+          style={ styles.sectionList }
           sections={ Songs }
           keyExtractor={ (p, i) => i }
           renderItem={({item, section}) => {
@@ -45,7 +46,7 @@ export default class HomeScreen extends React.Component {
             else
               return null
           }}
-          renderSectionHeader={({section}) => 
+          renderSectionHeader={({section}) =>
             <Header name={section.meta.displayName}
               color={section.meta.color}
               onTouch={ this.handleCollapse(section) } 
@@ -61,4 +62,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
   },
+  sectionList: {
+    //backgroundColor: "#FFFFFF",
+  }
 });

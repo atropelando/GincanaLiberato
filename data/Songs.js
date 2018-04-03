@@ -708,6 +708,56 @@ De estar contigo nesse momento
 E no peito esse sentimento 
 Nunca acabará`
       },
+      {
+        title: "Preparem o caixão",
+        lyrics: 
+`Preparem o caixão
+Lá vem a invasão
+É a TNT dominando a Fundação
+Não vou baixar cabeça pra nenhuma equipe não
+É a TNT comandando o batidão`
+      },
+      {
+        title: "Uma coisa eu vou dizer",
+        lyrics: 
+`Uma coisa eu dizer
+Amo o curso pra valer
+Por ele posso até morrer
+E quem é ele? TNT 
+(2x)`
+      },
+      {
+        title: "Fúria, eu te dou a vida",
+        lyrics: 
+`Fúria, eu te dou a vida
+Tu é alegria
+Do meu coração
+Sabe, é um sentimento
+E o que nós queremos
+É ser campeão...`
+      },
+      {
+        title: "OLÊ OLÊ",
+        lyrics: 
+`Olê Olê, Olê Olê, Olê Olê Olê Olê Olê Olê (x2) 
+
+Somos da fúria, sempre cantando 
+TNT seguimos sempre te amando 
+Somos a fúria da fundação 
+TNT é garra, luta e união`
+      },
+      {
+        title: "Nós dominamos essa Liberato",
+        original: "Só te peço este campeonato (Guarda Colorada)",
+        lyrics: 
+`TNT nós dominamos essa Liberato É no saguão que eu canto e grito, pra te apoiar 
+TNT é mais que tudo, é um sentimento 
+E o troféu nessa gincana nós vamos buscar 
+
+E vamos Fúria não podemos perder 
+E vamos Fúria que temos que copar 
+Eu faço tudo nessa gincana pra poder ganhar!`
+      },
     ],
   },
   {

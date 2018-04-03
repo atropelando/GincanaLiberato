@@ -12,15 +12,15 @@ export default class ListItem extends React.Component {
       Animated.timing(
         this.state.height,
         {
-          toValue: 45,
-          duration: 300,
+          toValue: 44,
+          duration: 250,
         }
       ),
       Animated.timing(
         this.state.opacity,
         {
           toValue: 1,
-          duration: 300,
+          duration: 250,
         }
     )]).start();
   }
@@ -48,6 +48,5 @@ const styles = StyleSheet.create({
   item: {
     padding: 10,
     fontSize: 18,
-    height: 44,
   },
 });
