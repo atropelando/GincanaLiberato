@@ -8,6 +8,19 @@ export default class HomeScreen extends React.Component {
   static navigationOptions = {
     title: 'Músicas Gincana Liberato',
   }
+
+  constructor() {
+    super();
+    this.state = { currentSection: {} };
+  }
+
+  handleCollapse(section) {
+    if(section === this.state.currentSection)
+      return _ => this.setState({ currentSection: {} })
+    else
+      return _ => this.setState({ currentSection: section })
+  }
+
   renderSeparator = () => {
     return (
       <View
@@ -21,15 +34,22 @@ export default class HomeScreen extends React.Component {
   };
 
   render() {
-    const sample = ["ABC", "DEF", "GHI", "JKL"];
-
     return (
       <View style={styles.container}>
         <SectionList
           sections={ Songs }
           keyExtractor={ (p, i) => i }
-          renderItem={({item}) => <ListItem item={ item } navigation={ this.props.navigation } /> }
-          renderSectionHeader={({section}) => <Header name={section.meta.displayName} color={section.meta.color} />}
+          renderItem={({item, section}) => {
+            if(section === this.state.currentSection)
+              return <ListItem item={ item } navigation={ this.props.navigation } />
+            else
+              return null
+          }}
+          renderSectionHeader={({section}) => 
+            <Header name={section.meta.displayName}
+              color={section.meta.color}
+              onTouch={ this.handleCollapse(section) } 
+            />}
           ItemSeparatorComponent={ this.renderSeparator }
         />
       </View>
