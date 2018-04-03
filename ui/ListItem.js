@@ -1,7 +1,30 @@
 import React from 'react';
-import { StyleSheet, Text, TouchableOpacity } from 'react-native';
+import { Animated, StyleSheet, Text, TouchableOpacity } from 'react-native';
 
 export default class ListItem extends React.Component {
+  state = {
+    height: new Animated.Value(0),
+    opacity: new Animated.Value(0),
+  }
+
+  componentDidMount() {
+    Animated.parallel([
+      Animated.timing(
+        this.state.height,
+        {
+          toValue: 45,
+          duration: 300,
+        }
+      ),
+      Animated.timing(
+        this.state.opacity,
+        {
+          toValue: 1,
+          duration: 300,
+        }
+    )]).start();
+  }
+
   _onPressButton() {
     const { navigate } = this.props.navigation;
     navigate('Music', { music: this.props.item })
@@ -10,7 +33,12 @@ export default class ListItem extends React.Component {
   render() {
     return (
       <TouchableOpacity onPress={this._onPressButton.bind(this)}>
-        <Text style={ styles.item }>{ this.props.item.title }</Text>
+        <Animated.View style={{
+          height: this.state.height,
+          opacity: this.state.opacity,
+        }}>
+          <Text style={ styles.item }>{ this.props.item.title }</Text>
+        </Animated.View>
       </TouchableOpacity>
     );
   }
